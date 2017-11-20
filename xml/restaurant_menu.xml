@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8">
+
+<restaurantMenu>
+  <menu type="breakfast">
+      <item category="entree">
+          <name>Eggs Benedict</name>
+          <description>Poached Eggs with Hollandaise on English Muffin</description>
+          <price>$9.99</price>
+      </item>
+      <item category="entree">
+          <name>Belgian Waffles</name>
+          <description>Belgian Waffles with Maple Syrup</description>
+          <price>$9.99</price>
+      </item>
+      <item category="beverage">
+          <name>Coffee</name>
+          <description>Fresh Ground Arabica with Cream and Sugar</description>
+          <price>$0.99</price>
+      </item>
+      <item category="beverage">
+          <name>Orange Juice</name>
+          <description>A juice made with oranges</description>
+          <price>$0.99</price>
+      </item>
+  </menu>
+  <menu type="lunch">
+      <item category="entree">
+          <name>Chicken Salad</name>
+          <description>A salad with chicken</description>
+          <price>$10.99</price>
+      </item>
+      <item category="entree">
+          <name>Chicken Sandwich</name>
+          <description>A sandwich with chicken</description>
+          <price>$12.99</price>
+      </item>
+      <item category="entree">
+          <name>Pastrami Sandwich</name>
+          <description>A sandwich made with pastrami</description>
+          <price>$13.99</price>
+      </item>
+      <item category="beverage">
+          <name>Coca-Cola</name>
+          <description>A fizzy cola soda</description>
+          <price>$0.99</price>
+      </item>
+      <item category="beverage">
+          <name>Orange Juice</name>
+          <description>A juice made with oranges</description>
+          <price>$0.99</price>
+      </item>
+  </menu>
+  <menu type="dinner">
+      <item category="entree">
+          <name>Texas Ribeye</name>
+          <description>16 oz. Ribeye mesquite grilled to order</description>
+          <price>$15.99</price>
+      </item>
+      <item category="entree">
+          <name>Cobb Salad</name>
+          <description>Cobb Salad with choice of dressing</description>
+          <price>$10.99</price>
+      </item>
+      <item category="beverage">
+          <name>Coffee</name>
+          <description>Fresh Ground Arabica with Cream and Sugar</description>
+          <price>$0.99</price>
+      </item>
+      <item category="beverage">
+          <name>Wine</name>
+          <description>Choice of House Red or White wine</description>
+          <price>$4.99</price>
+      </item>
+  </menu>
+</restaurantMenu>

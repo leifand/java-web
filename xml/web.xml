@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app>
+    <!-- name displayed on webpage -->
+    <display-name>SimpleServletProject</display-name>
+
+    <!-- class name and package name/path -->
+    <servlet>
+        <servlet-name>simpleServlet</servlet-name>
+        <servlet-class>org.codingdojo.tutorial.SimpleServlet</servlet-class>
+    </servlet>
+
+    <!-- mapping class name to URL -->
+    <servlet-mapping>
+        <servlet-name>simpleServlet</servlet-name>
+        <url-pattern>/simpleServlet</url-pattern>
+    </servlet-mapping>
+
+    <!-- second servlet ... fixed a minor typo here in the package name 'org' instead of 'or'-->
+    <servlet>
+        <servlet-name>xmlServlet</servlet-name>
+        <servlet-class>org.codingdojo.tutorial.XmlServlet</servlet-class>
+    </servlet>
+
+    <!-- mapping class to URL -->
+    <servlet-mapping>
+        <!-- class name  -->
+        <servlet-name>xmlServlet</servlet-name>
+        <!-- associated URL -->
+        <url-pattern>/xmlServletpath</url-pattern>
+    </servlet-mapping>
+
+    <!-- defines the landing page -->
+    <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    </welcome-file-list>
+</web-app>

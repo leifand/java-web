@@ -1,0 +1,19 @@
+/*
+	a CSS file!
+*/
+
+@charset "UTF-8";
+
+span {
+  display: inline-block;
+  width: 85px;
+  height: 85px;
+}
+
+.odd {
+  background-color: darkred;
+}
+
+.even {
+  background-color: darkblue;
+}

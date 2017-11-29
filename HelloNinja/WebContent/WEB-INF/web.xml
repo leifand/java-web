@@ -10,4 +10,15 @@
         <servlet-name>Home</servlet-name>
         <url-pattern>/Home</url-pattern>
     </servlet-mapping>
+    <!-- ... -->
+    <servlet>
+       <servlet-name>ShowPerson</servlet-name>
+       <servlet-class>com.la.controllers.ShowPerson</servlet-class>
+    </servlet>
+    <servlet-mapping>
+       <servlet-name>ShowPerson</servlet-name>
+       <url-pattern>/greetperson</url-pattern>
+    </servlet-mapping>
+    <!-- ... -->
+
 </web-app>
